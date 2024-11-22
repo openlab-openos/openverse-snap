@@ -7,22 +7,22 @@
     "url": "https://github.com/openlab-openos/openverse-snap.git"
   },
   "source": {
-    "shasum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io=",
+    "shasum": "1B+JKwTaGCKrO43iN92m+GdHNWMYnlO2mIVpurnnutA=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "iconPath": "logo.svg",
         "packageName": "@openverse/openverse-snap",
-        "registry": "https://registry.npmjs.org"
+        "iconPath": "logo.svg",
+        "registry": "https://registry.npmjs.org/"
       }
     }
   },
   "initialPermissions": {
+    "snap_dialog": {},
     "endowment:rpc": {
       "dapps": true,
       "snaps": false
     },
-    "snap_dialog": {},
     "snap_getBip32Entropy": [
       {
         "path": [
