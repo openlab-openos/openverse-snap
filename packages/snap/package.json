@@ -1,6 +1,6 @@
 {
-  "name": "@openverse/openverse-snap",
-  "version": "1.0.0",
+  "name": "@readme916/openverse-snap",
+  "version": "1.0.1",
   "description": "Manage Openos-based tokens and NFTs, swap, stake, bridge etc.. , and connect to Openverse apps with MetaMask.",
   "repository": {
     "type": "git",

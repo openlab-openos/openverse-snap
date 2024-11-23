@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage Openos-based tokens and NFTs, swap, stake, bridge etc.. , and connect to Openverse apps with MetaMask.",
   "proposedName": "Openverse Wallet",
   "repository": {
@@ -7,11 +7,11 @@
     "url": "git+https://github.com/openlab-openos/openverse-snap.git"
   },
   "source": {
-    "shasum": "5uxTpjJvsvCq0nnpHQ59cxHoTs+nQs1FxsbIILGvhEQ=",
+    "shasum": "KxofCwb/R5rJH0tWLeGuIL/izNZT0zbDihIprhgYCDo=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "packageName": "@openverse/openverse-snap",
+        "packageName": "@readme916/openverse-snap",
         "iconPath": "logo.svg",
         "registry": "https://registry.npmjs.org/"
       }
