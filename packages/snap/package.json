@@ -4,7 +4,7 @@
   "description": "Manage Openos-based tokens and NFTs, swap, stake, bridge etc.. , and connect to Openverse apps with MetaMask.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openlab-openos/openverse-snap.git"
+    "url": "git+https://github.com/openlab-openos/openverse-snap.git"
   },
   "license": "(MIT-0 OR Apache-2.0)",
   "main": "./dist/bundle.js",
