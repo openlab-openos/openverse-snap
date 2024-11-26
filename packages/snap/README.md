@@ -24,7 +24,7 @@ npm start
 
 ## Using the snap
 
-The production snap is available as Snap ID `npm:@readme916/openverse-snap`.
+The production snap is available as Snap ID `npm:openverse-snap`.
 
 The locally started snap is available as Snap ID `local:http://localhost:8080`.
 
@@ -56,7 +56,7 @@ Example:
 ethereum.request({
   method: 'wallet_invokeSnap',
   params: {
-    snapId: 'npm:@readme916/openverse-snap',
+    snapId: 'npm:openverse-snap',
     request: {
       method: 'getPublicKey',
       params: {
@@ -92,7 +92,7 @@ Example:
 ethereum.request({
   method: 'wallet_invokeSnap',
   params: {
-    snapId: 'npm:@readme916/openverse-snap',
+    snapId: 'npm:openverse-snap',
     request: {
       method: 'signTransaction',
       params: {
@@ -128,7 +128,7 @@ Example:
 ethereum.request({
   method: 'wallet_invokeSnap',
   params: {
-    snapId: 'npm:@readme916/openverse-snap',
+    snapId: 'npm:openverse-snap',
     request: {
       method: 'signAllTransactions',
       params: {
@@ -168,7 +168,7 @@ const base58Message = base58.encode(bytes);
 ethereum.request({
   method: 'wallet_invokeSnap',
   params: {
-    snapId: 'npm:@readme916/openverse-snap',
+    snapId: 'npm:openverse-snap',
     request: {
       method: 'signMessage',
       params: {

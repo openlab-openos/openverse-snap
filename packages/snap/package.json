@@ -1,6 +1,6 @@
 {
-  "name": "@readme916/openverse-snap",
-  "version": "1.0.1",
+  "name": "openverse-snap",
+  "version": "1.0.0",
   "description": "Manage Openos-based tokens and NFTs, swap, stake, bridge etc.. , and connect to Openverse apps with MetaMask.",
   "repository": {
     "type": "git",
@@ -61,7 +61,7 @@
     "prettier-plugin-packagejson": "^2.2.11",
     "rimraf": "^3.0.2",
     "ts-jest": "^29.1.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.4"
   },
   "packageManager": "yarn@3.2.1",
   "engines": {
