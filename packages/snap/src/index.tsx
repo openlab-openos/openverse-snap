@@ -22,15 +22,15 @@ export const onRpcRequest: OnRpcRequestHandler = async ({
   const dappOrigin = (request?.params as { origin?: string }).origin || origin;
   const dappHost = (new URL(dappOrigin))?.host;
 
-  // if (
-  //   !dappHost ||
-  //   (
-  //     !dappHost.match(/^https:\/\/(?:\S+\.)?openverse\.network$/) &&
-  //     !dappHost.match(/^https:\/\/(?:\S+\.)?openverse\.live$/)
-  //   )
-  // ) {
-  //   throw new Error('Invalid origin');
-  // }
+  if (
+    !dappHost ||
+    (
+      !dappHost.match(/^https:\/\/(?:\S+\.)?openverse\.network$/) &&
+      !dappHost.match(/^https:\/\/(?:\S+\.)?openverse\.live$/)
+    )
+  ) {
+    throw new Error('Invalid origin');
+  }
 
   switch (request.method) {
 
