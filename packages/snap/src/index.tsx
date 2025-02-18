@@ -19,7 +19,7 @@ export const onRpcRequest: OnRpcRequestHandler = async ({
   origin,
   request,
 }) => {
-  const dappOrigin = (request?.params as { origin?: string }).origin || origin;
+  const dappOrigin = origin;
   const dappHost = (new URL(dappOrigin))?.host;
 
   if (
